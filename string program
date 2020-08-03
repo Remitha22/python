@@ -1,0 +1,14 @@
+a=input()
+b=input()
+c=input()
+v=['a','e','i','o','u']
+for i in a.lower():
+    if i in v:
+       u=(a.replace(i,'*'))
+       a=u 
+for i in b.lower():
+    if i not in v:
+       x= (b.replace(i,'#'))
+       b=x    
+c=c.upper()
+print(a+b+c)
