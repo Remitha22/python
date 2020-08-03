@@ -1,0 +1,8 @@
+n=[int(d) for d in str(input())]
+even,odd=0,0
+for i in range(0,len(n)):
+    if(i%2==0):
+        even=even+n[i]
+    else:
+        odd=odd+n[i]
+print(abs(odd-even))
